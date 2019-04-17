@@ -1,0 +1,23 @@
+html {
+  font-family: "Open Sans", sans-serif;
+  background-color: #e2e2e2;
+}
+
+h1 {
+  border-bottom: 1px solid #000;
+}
+
+label {
+  display: block;
+}
+
+form {
+  background-color: #fff;
+}
+
+@media only screen and (min-width: 60em){
+  .space-right {
+    padding-right: .5rem;
+  }
+
+}
