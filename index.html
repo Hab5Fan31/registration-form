@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Registration form</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="ccc/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+  <form class="max-length gutter pad-t-2 pad-b-2" metho="POST" action="https://formspree.io/bradlet@algonquincollege.com">
+    <div>
+      <h1>Want to go to mars?</h1>
+      <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+    </div>
+    <fieldset>
+      <legend class="giga unit xs-1" Personal details</legend>
+        <div class="grid">
+          <div class="push space-right unit xs-1 1-1-2">
+            <label for="name">Name</label>
+            <input id="name" name="name" required>
+          </div>
+          <div class="push space-left unit xs-1 1-1-2">
+            <label for="age">Age</label>
+            <input id="age" type="text" required>
+          </div>
+          <div class="push space-right unit xs-1 1-1-2">
+            <label for="email">Email</label>
+            <input id="email" type="email" required>
+          </div>
+          <div class="push space-left unit xs-1 1-1-2">
+            <label for="fitness">Physical fitness</label>
+            <select id="fitness" name="fitness">
+              <option>Super-human</option>
+              <option>Fit as a fiddle</option>
+              <option>Not terribly strong</option>
+              <option>A little couch-potato-y</option>
+            </select>
+          </div>
+          <div class="push unit xs-1 m-1">
+            <label for="address">Address</label>
+            <textarea id="address" name="message" required></textarea>
+          </div>
+        </fieldset>
+      </body>
+      </html>
